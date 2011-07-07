@@ -2,7 +2,7 @@
 
 import commands
 import os
-import subprocess
+##import subprocess
 
 #os.chdir("/git/project/dir")
 ##os.chdir("C:\CProjects\Kinect_OpenNI\RGBDemo-0.5.0-Source\RGBDemo-0.5.0-Source\mysuperdemo")
@@ -24,7 +24,7 @@ author = "herbert19lee@gmail.com"
         
 #hist = commands.getoutput("git log --shortstat --reverse --pretty=oneline --since=07/06/2011 --author=\"" + author + "\" --no-merges")
 ##hist = os.popen("git log --shortstat --reverse --pretty=oneline --since=07/06/2011 --author=\"" + author + "\" --no-merges").read()
-hist = os.popen("git log --shortstat --reverse --pretty=oneline --since=07/05/2011 --author=herbert19lee@gmail.com").read()
+hist = os.popen("git log --shortstat --reverse --pretty=oneline --since=07/06/2011 --author=herbert19lee@gmail.com").read()
 print hist
 
 ##hist = os.popen("git log --shortstat --reverse --pretty=oneline --since=07/06/2011 --author=herbert19lee@gmail.com").read()
