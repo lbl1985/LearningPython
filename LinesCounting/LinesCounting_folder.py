@@ -5,9 +5,9 @@ import os
 import datetime
 
 #os.chdir("/git/project/dir")
-##os.chdir("C:\CProjects\Kinect_OpenNI\RGBDemo-0.5.0-Source\RGBDemo-0.5.0-Source\mysuperdemo")
+os.chdir("C:\CProjects\Kinect_OpenNI\RGBDemo-0.5.0-Source\RGBDemo-0.5.0-Source\mysuperdemo")
 ##os.chdir("C:\CProjects\LearningBoost")
-os.chdir("C:\CProjects\LearningPython")
+##os.chdir("C:\CProjects\LearningPython")
 
 author = "herbert19lee@gmail.com"
 
