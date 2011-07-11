@@ -7,8 +7,6 @@ import numpy
 folderNameS = ["C:\CProjects\Kinect_OpenNI\RGBDemo-0.5.0-Source\RGBDemo-0.5.0-Source\mysuperdemo", 
                "C:\CProjects\LearningBoost", "C:\CProjects\LearningPython"]
 
-folderNameS = ["C:\CProjects\LearningBoost", "C:\CProjects\Kinect_OpenNI\RGBDemo-0.5.0-Source\RGBDemo-0.5.0-Source\mysuperdemo", 
-               "C:\CProjects\LearningPython"]
 linesTotalProject = 0
 linesOneProjectArray = [];
 for folder in folderNameS:
