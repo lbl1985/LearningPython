@@ -35,5 +35,5 @@ def folderLines(folder):
             totalins = totalins + int(ins.split(" ")[1])
 
 
-            print "Since " + date + "-" +  time + " you (" + author + ") wrote " + str(totalins) + " lines of code!"
-            return (totalins)
+    print "Since " + date + "-" +  time + " you (" + author + ") wrote " + str(totalins) + " lines of code!"
+    return (totalins)
