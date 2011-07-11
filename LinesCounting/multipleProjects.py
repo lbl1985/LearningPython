@@ -10,10 +10,11 @@ folderNameS = ["C:\CProjects\Kinect_OpenNI\RGBDemo-0.5.0-Source\RGBDemo-0.5.0-So
 folderNameS = ["C:\CProjects\LearningBoost", "C:\CProjects\Kinect_OpenNI\RGBDemo-0.5.0-Source\RGBDemo-0.5.0-Source\mysuperdemo", 
                "C:\CProjects\LearningPython"]
 linesTotalProject = 0
-linesPerProject = [];
+linesOneProjectArray = [];
 for folder in folderNameS:
     linesOneProject = LinesCounting_folder.folderLines(folder)
-    linesPerProject.append(str(linesOneProject))
+    #linesOneProjectArray.append(str(linesOneProject))
+    print("Project: \n" + folder + "\n" + str(linesOneProject)) + " LINES"
     linesTotalProject = linesTotalProject + linesOneProject
 
 
