@@ -18,8 +18,8 @@ def folderLines(folder):
 ##hist = os.popen("git log --shortstat --reverse --pretty=medium --since=07/06/2011 --author=\"" + author + "\" --no-merges").read()
     d = datetime.date.today()
     date = d.isoformat()
-##time = "01:00am"
-    time = "yesterday"
+    time = "08:00am"
+##    time = "yesterday"
     commandline = "git log --shortstat --reverse --pretty=oneline --since \"" + time + "\" --author=herbert19lee@gmail.com --no-merges"
 
 ##print commandline
@@ -32,7 +32,11 @@ def folderLines(folder):
     for line in hist:
         if line.startswith(' '):
             ins =  line.split(",")[1]
-            totalins = totalins + int(ins.split(" ")[1])
+            # Because, every commit should be less than 100 lines, if one commit
+            # more than 100 lines, it's probably for copy based or import a new
+            # library into the project
+            if int(ins.split(" ")[1]) < 100:
+                totalins = totalins + int(ins.split(" ")[1])
 
 
     print "Since " + date + "-" +  time + " you (" + author + ") wrote " + str(totalins) + " lines of code!"

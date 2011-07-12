@@ -5,7 +5,8 @@ import LinesCounting_folder
 import numpy
 
 folderNameS = ["C:\CProjects\Kinect_OpenNI\RGBDemo-0.5.0-Source\RGBDemo-0.5.0-Source\mysuperdemo", 
-               "C:\CProjects\LearningBoost", "C:\CProjects\LearningPython"]
+               "C:\CProjects\LearningBoost", "C:\CProjects\LearningPython",
+               "C:\Users\lbl1985\Documents\MATLAB\work\celltrack"]
 
 linesTotalProject = 0
 linesOneProjectArray = [];
