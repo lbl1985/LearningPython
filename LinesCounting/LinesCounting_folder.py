@@ -18,8 +18,9 @@ def folderLines(folder):
 ##hist = os.popen("git log --shortstat --reverse --pretty=medium --since=07/06/2011 --author=\"" + author + "\" --no-merges").read()
     d = datetime.date.today()
     date = d.isoformat()
-##time = "01:00am"
-    time = "yesterday"
+    time = "01:00am"
+##    time = "yesterday"
+##    time = "today"
     commandline = "git log --shortstat --reverse --pretty=oneline --since \"" + time + "\" --author=herbert19lee@gmail.com --no-merges"
 
 ##print commandline
