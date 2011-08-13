@@ -8,17 +8,16 @@ elif sys.platform.startswith('darwin'):
 import LinesCounting_folder
 import numpy
 
-<<<<<<< HEAD
 folderNameS = ["C:\CProjects\Kinect_OpenNI\RGBDemo-0.5.0-Source\RGBDemo-0.5.0-Source\mysuperdemo", 
                "C:\CProjects\LearningBoost", "C:\CProjects\LearningPython",
                "C:\Users\lbl1985\Documents\MATLAB\work\celltrack"]
-=======
+
 if sys.platform.startswith('win32'):
     folderNameS = ["C:\CProjects\Kinect_OpenNI\RGBDemo-0.5.0-Source\RGBDemo-0.5.0-Source\mysuperdemo", 
-               "C:\CProjects\LearningBoost", "C:\CProjects\LearningPython"]
+               "C:\CProjects\LearningBoost", "C:\CProjects\LearningPython",
+                   "C:\Users\lbl1985\Documents\MATLAB\work\HFeature"]
 elif sys.platform.startswith('darwin'):
     folderNameS = ["/Users/herbert19lee/Develop/DevelopPython/LearningPython"]
->>>>>>> c2f1afa491502979d184f74c04dcf6d428fa0109
 
 linesTotalProject = 0
 linesOneProjectArray = [];
