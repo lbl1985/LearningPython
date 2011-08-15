@@ -12,7 +12,9 @@ if sys.platform.startswith('win32'):
     folderNameS = ["C:\CProjects\Kinect_OpenNI\RGBDemo-0.5.0-Source\RGBDemo-0.5.0-Source\mysuperdemo", 
                "C:\CProjects\LearningBoost", "C:\CProjects\LearningPython"]
 elif sys.platform.startswith('darwin'):
-    folderNameS = ["/Users/herbert19lee/Develop/DevelopPython/LearningPython"]
+    folderNameS = ["/Users/herbert19lee/Develop/DevelopPython/LearningPython",
+                   "/Users/herbert19lee/Documents/MATLAB/work/celltrack",
+                   "/Users/herbert19lee/Documents/MATLAB/work/HFeature"]
 
 linesTotalProject = 0
 linesOneProjectArray = [];
