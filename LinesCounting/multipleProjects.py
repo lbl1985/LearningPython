@@ -19,7 +19,9 @@ if sys.platform.startswith('win32'):
 elif sys.platform.startswith('darwin'):
     folderNameS = ["/Users/herbert19lee/Develop/DevelopPython/LearningPython",
                    "/Users/herbert19lee/Documents/MATLAB/work/celltrack",
-                   "/Users/herbert19lee/Documents/MATLAB/work/HFeature"]
+                   "/Users/herbert19lee/Documents/MATLAB/work/HFeature",
+                   "/Users/herbert19lee/Documents/eclipse/MyRobots"
+                   ]
 
 linesTotalProject = 0
 linesOneProjectArray = [];
