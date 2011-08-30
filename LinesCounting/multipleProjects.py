@@ -17,10 +17,11 @@ if sys.platform.startswith('win32'):
                "C:\CProjects\LearningBoost", "C:\CProjects\LearningPython",
                    "C:\Users\lbl1985\Documents\MATLAB\work\HFeature"]
 elif sys.platform.startswith('darwin'):
-    folderNameS = ["/Users/herbert19lee/Develop/DevelopPython/LearningPython",
+    folderNameS = ["/Users/herbert19lee/Develop/LearningPython",
                    "/Users/herbert19lee/Documents/MATLAB/work/celltrack",
                    "/Users/herbert19lee/Documents/MATLAB/work/HFeature",
-                   "/Users/herbert19lee/Documents/eclipse/MyRobots"
+                   "/Users/herbert19lee/Documents/eclipse/MyRobots", 
+                   "/Users/herbert19lee/Develop/LearningJava"
                    ]
 
 linesTotalProject = 0
